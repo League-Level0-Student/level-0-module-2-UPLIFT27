@@ -18,6 +18,27 @@ public class Validation {
 
 		// 1. Use each value of randomNumber to give the user a random compliment.
 
+		while(i=10)
+		
+		if(randomNumber.equals"1")
+{
+	System.out.println("You look good");
+}
+else if(randomNumber.equals(2))
+{
+	System.out.println("You are funny")
+}
+else if(randomNumber.equals)
+{
+	System.out.println("You are cool")
+
+}
+else if(randomNumber.equals)
+{
+	System.out.println("You are smart")
+}
+	
+
 		// 2. Repeat all the code above 10 times
 		
 		// 3. Find someone to test out your program. They will like it :)
