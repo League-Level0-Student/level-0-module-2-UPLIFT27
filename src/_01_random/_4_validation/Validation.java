@@ -12,35 +12,62 @@ public class Validation {
 		
 		Random randomMaker = new Random();
 		
-		int randomNumber = randomMaker.nextInt(5);
+		int randomNumber = randomMaker.nextInt(10);
 		
 		System.out.println(randomNumber);
 
 		// 1. Use each value of randomNumber to give the user a random compliment.
 
-		while(i=10)
 		
-		if(randomNumber.equals"1")
+		
+		if (randomNumber ==1)
 {
 	System.out.println("You look good");
 }
-else if(randomNumber.equals(2))
+else if(randomNumber == 2)
 {
-	System.out.println("You are funny")
+	System.out.println("You are funny");
 }
-else if(randomNumber.equals)
+else if(randomNumber==3)
 {
-	System.out.println("You are cool")
+	System.out.println("You are cool");
 
 }
-else if(randomNumber.equals)
+else if(randomNumber==4)
 {
-	System.out.println("You are smart")
+	System.out.println("You are smart");
+	
+}
+else if(randomNumber==5)
+{
+	System.out.println("You are friendly");
+}
+else if(randomNumber==6)
+{
+ System.out.println("You are spectacular");	
+}
+else if(randomNumber==7)
+{
+System.out.println("You are amazing");
+}	
+else if(randomNumber==8)
+{
+System.out.println("You are magnificent");	
+}
+else if(randomNumber==9)
+{
+	System.out.println("you are the best");
+}
+		
+else if(randomNumber==10)
+{
+	System.out.println("You are beautiful");
 }
 	
+	}
 
 		// 2. Repeat all the code above 10 times
 		
 		// 3. Find someone to test out your program. They will like it :)
 	}
-}
+
