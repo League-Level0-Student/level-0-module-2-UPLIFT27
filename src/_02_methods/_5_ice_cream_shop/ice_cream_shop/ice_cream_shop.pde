@@ -15,6 +15,14 @@ void setup(){
 
      // Write code to add a cherry to the top of your ice cream. Hint: ellipse
 
+
+makeIceCreamCone();
+addScoop("vanilla");
+addScoop("vanilla");
+addScoop("vanilla");
+fill(#FF0000);
+ellipse(250,40,20,20);
+
 }
 
 /***********  These are methods for you to use. DON'T CHANGE CODE BELOW THIS LINE !!!   *****************/
