@@ -7,14 +7,14 @@ public class VotingBooth {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-	}
+	
 String stage = JOptionPane.showInputDialog(null,"how old are you");
 
-int age= integer.parseInt(stage);
+int age= Integer.parseInt(stage);
 
 if(age>=18)
 {
-	JOptionPane.showMessageDialog(null,"Who do you think is the next president");
+	JOptionPane.showInputDialog(null,"Who do you think the next president should be");
 }
 else
 {
