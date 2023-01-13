@@ -8,6 +8,7 @@ import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 
 import game_tools.Sound;
 
@@ -16,14 +17,18 @@ public class ThatWasEasy extends MouseAdapter {
     @Override
     public void mouseClicked(MouseEvent arg0) {
         /* Use the Sound.speak method to make the button work. */
-        if(MouseEvent)
-        		{
-        	Sound.speak();
-        		}
+        
+        		
+        	speak();
+        		
     }
 
     public static void main(String[] args) {
         new ThatWasEasy();
+    }
+    
+    void speak() {
+    	JOptionPane.showMessageDialog(null, "Mouse is clicked");
     }
 
     public ThatWasEasy() {
